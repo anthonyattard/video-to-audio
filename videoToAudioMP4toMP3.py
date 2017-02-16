@@ -3,8 +3,9 @@
 import os
 import subprocess
 
-sourcedir = "/Video/File/Directory"
+sourcedirsourceDir = "/Video/File/Directory"
 
-for file in os.listdir(sourcedir):
+
+for file in os.listdir(sourcedir):os.listdir(sourceDir):
     name = file[:file.rfind(".")]
-    subprocess.call(["ffmpeg", "-i", sourcedir+"/"+name+".MP4", sourcedir+"/"+name+".mp3"])
+    subprocess.call(["ffmpeg", "-i", sourcedir+"/"+name+".MP4", sourcedir+"/"+name+".mp3"])sourceDir+"/"+name+".MP4", sourceDir+"/"+name+".mp3"])
